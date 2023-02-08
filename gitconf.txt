@@ -1,0 +1,8 @@
+https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez
+
+git config --global user.name {usuario github}
+git config --global user.email {correo github}
+
+Repo del curso 
+https://github.com/vladimir-ascue/20231-FE1-3DM   --- Direcicon web
+https://github.com/vladimir-ascue/20231-FE1-3DM.git-- Doreccion del Repositorio
