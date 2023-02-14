@@ -1,0 +1,52 @@
+<!-- 
+    INDENTADO: TABULACION O SANGRIA IZQUIERDA
+               Determina o encarca bloques de código
+
+        HyperText Marckup Languaje >> HTML
+        Etiquetas: Encerradas entre <xxx>: inicio      </xxx>: Cierre
+                    Excepciones: <br> Salto de linea 
+                                 <input> 
+
+        HTML NO ES UN LENGUAJE DE PROGRAMACIÓN
+    Etiquetas semanticas: Que proporcionan apoyo a la estructura del Sitio WEB
+        <header></header> : Encabezado
+        <main> </main> : contenido principal
+        <aside> </aside> : contenido relevante relaciondado al principal
+        <article> </article> : Articulos en general
+        <footer> </footer> : Pie de pagina
+        <nav> </nav> : navegación | menus
+
+    Selectores : class, id
+                class se usa para identificar(seleccionar) varios elementos del documento
+                id se usa para identificar(seleccionar) un único elemento del documento
+  -->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estructura HTML</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <style>
+            #parrafito{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1px" width="60px">
+            <tr><td>Apellidos</td><td>Nombres</td><td>Edad</td></tr>
+            <tr><td>Ascue</td><td>Vladimir</td><td>40</td></tr>
+        </table>
+
+        <table class="listaAlumnos">
+            <tr><td>Apellidos</td><td>Nombres</td><td>Edad</td></tr>
+            <tr><td>Ascue</td><td>Vladimir</td><td>40</td></tr>
+        </table>
+        
+    </body>
+    <p id="parrafito" style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis ipsam velit, dicta maxime repellendus deserunt corrupti adipisci neque, inventore quibusdam nesciunt perspiciatis explicabo, voluptatum laboriosam aspernatur quae aliquid tempore!</p>
+</html>
+    
+
