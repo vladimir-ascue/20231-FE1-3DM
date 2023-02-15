@@ -1,0 +1,15 @@
+.listaAlumnos{
+    border: 1px solid blue;
+}
+
+.listaAlumnos tr{
+    background-color: bisque;
+}
+
+.listaAlumnos tr:hover{
+    background-color: yellow;
+}
+
+#parrafito{
+    color: chocolate;
+}
