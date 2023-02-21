@@ -1,0 +1,43 @@
+#contenedor{
+    background-color: antiquewhite; /* Color de fondo*/
+    width: 100%; /* ancho */
+}
+
+#cabecera{
+    background-color: skyblue; /* Color de fondo*/
+}
+
+#contenido{
+    background-color: red;
+}
+
+#contenido #articulos{
+    width: 100%;
+    text-align: center;
+}
+
+/* solo se aplica al ultimo elemento en la jerarquia */
+#contenido #articulos td{
+    border: 1px solid black;
+    background-color: floralwhite;
+}
+
+#pie{
+    background-color: yellow;
+}
+
+#nav1{
+    background-color: whitesmoke;
+    width: 20%;
+}
+
+#menu{
+    width: 100%;
+    text-align: center;
+}
+
+#art1, #art4{
+    width: 15%;
+    border: 1px;
+/*    box-shadow: 3px 3px 5px blue; /* sombra del elemento - Despl X, Despl Y, Radio de dif, color */
+}
