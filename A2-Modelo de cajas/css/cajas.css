@@ -1,0 +1,32 @@
+#caja{
+     /*margin: 10px 10px 10px 10px; /* margen exterior */
+    margin: 70px;
+    /* margin-bottom: 30px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 120px; */
+    border: 50px solid black;
+/*    border-left: 70px solid green;
+    border-top: 45px solid deepskyblue;
+    border-bottom: 30px solid brown;
+    border-right: 20px solid pink; */
+    /*padding: 40px 15px 80px 60px; /* margen interno */
+    padding: 40px;
+    background-color: aquamarine;
+    width: 650px;
+}
+
+#Redondeado{
+    height: 500px;
+    width: 500px;
+    background-color: hotpink;
+    margin: 100px;
+    border-radius: 30px 10px;
+    box-shadow: 10px 10px 20px black; /* depl X, despl Y, difuminado, color */
+}
+
+#Redondeado:hover{
+    background-color: lightpink;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 0px 150px 150px 0px
+}
