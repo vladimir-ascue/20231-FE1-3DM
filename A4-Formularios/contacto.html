@@ -21,9 +21,9 @@
                 <a class="menuItem itemActivo" href="contacto.html"> Contacto </a>
             </div>
             <div id="divForm">
-                <form >
-                    <label for = "Nombre">Nombre</label>
-                    <input type="text" name="Nombre"> <br>
+                <form method="get" action="#">
+                    <label id="labelNombre" for = "Nombre">Nombre</label>                    
+                    <input id="inputNombre" type="text" name="publi"> <br>
 
                     <label for = "publi">Enviar publicidad </label>
                     <input type="checkbox" name="publi"><br>
@@ -40,7 +40,10 @@
                         <option value="Argentina">Argentina</option>
                         <option value="Brasil">Brasil</option>
                         <option value="Colombia">Colombia</option>
-                    </select>
+                    </select><br>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <button> Actualizar </button>
                 </form>
             </div>
         </div>

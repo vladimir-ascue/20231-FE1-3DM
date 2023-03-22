@@ -22,6 +22,7 @@
     padding: 5px;
     flex-wrap: wrap; /* se acomodan los elementos de acuerdo al espacio */
     margin-bottom: 25px;
+    background-color: brown;
 }
 .menuItem{
     background-color: yellow;
@@ -49,4 +50,68 @@
     width: 100%;
     padding: 15px;
 
+}
+
+#ContenedorInicio{
+    display: inline;
+    padding: 15px;
+}
+
+.articulo{
+    display: flex;
+    
+    border-radius: 15px;
+    
+    gap: 10px;
+    padding: 15px 5px;
+    margin-top: 25px;
+}
+
+.proyecto{
+    
+    width: 60%;
+}
+
+.imgProyecto{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px #ccc;    
+    background-color: whitesmoke;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#c1{
+    background-color: rgba(0,0,0,0);
+}
+
+#c1:hover{
+    transform: rotate(-45deg);
+    transition: 500ms;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#c2:hover{
+    transform: scale(0.5);
+    transition: 1s;
+}
+
+#c3:hover{
+    transform: translate(-150px, 200px) rotate(360deg);
+    transition: 1s;
+    background-color: rgba(12,130,156,0.8);
+}
+
+#c4:hover{
+    transform: skew(-45deg) rotate(90deg);
+    transition: 1s;
+    background-color: rgba(0,0,0,0);
 }
